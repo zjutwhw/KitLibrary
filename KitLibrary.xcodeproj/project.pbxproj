@@ -29,6 +29,7 @@
 		F7234B081C0ACF2B005B72C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7234B0F1C0AD058005B72C8 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		F7234B101C0AD058005B72C8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F7234B131C0ADAC8005B72C8 /* BaseKitLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseKitLibrary.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		F7234AEB1C0ACF2B005B72C8 = {
 			isa = PBXGroup;
 			children = (
+				F7234B121C0ADA9C005B72C8 /* Header */,
 				F7234B0E1C0ACF9B005B72C8 /* CommonUI */,
 				F7234AF61C0ACF2B005B72C8 /* KitLibrary */,
 				F7234AF51C0ACF2B005B72C8 /* Products */,
@@ -90,6 +92,14 @@
 				F7234B101C0AD058005B72C8 /* BaseViewController.m */,
 			);
 			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		F7234B121C0ADA9C005B72C8 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				F7234B131C0ADAC8005B72C8 /* BaseKitLibrary.h */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +322,7 @@
 				F7234B0D1C0ACF2B005B72C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
