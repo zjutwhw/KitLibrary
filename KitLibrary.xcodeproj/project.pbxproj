@@ -13,6 +13,7 @@
 		F7234B021C0ACF2B005B72C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7234B001C0ACF2B005B72C8 /* Main.storyboard */; };
 		F7234B041C0ACF2B005B72C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7234B031C0ACF2B005B72C8 /* Assets.xcassets */; };
 		F7234B071C0ACF2B005B72C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7234B051C0ACF2B005B72C8 /* LaunchScreen.storyboard */; };
+		F7234B111C0AD058005B72C8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7234B101C0AD058005B72C8 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F7234B031C0ACF2B005B72C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7234B061C0ACF2B005B72C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7234B081C0ACF2B005B72C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7234B0F1C0AD058005B72C8 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F7234B101C0AD058005B72C8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		F7234AEB1C0ACF2B005B72C8 = {
 			isa = PBXGroup;
 			children = (
+				F7234B0E1C0ACF9B005B72C8 /* CommonUI */,
 				F7234AF61C0ACF2B005B72C8 /* KitLibrary */,
 				F7234AF51C0ACF2B005B72C8 /* Products */,
 			);
@@ -77,6 +81,15 @@
 				F7234AF81C0ACF2B005B72C8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7234B0E1C0ACF9B005B72C8 /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				F7234B0F1C0AD058005B72C8 /* BaseViewController.h */,
+				F7234B101C0AD058005B72C8 /* BaseViewController.m */,
+			);
+			path = CommonUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7234AFF1C0ACF2B005B72C8 /* ViewController.m in Sources */,
+				F7234B111C0AD058005B72C8 /* BaseViewController.m in Sources */,
 				F7234AFC1C0ACF2B005B72C8 /* AppDelegate.m in Sources */,
 				F7234AF91C0ACF2B005B72C8 /* main.m in Sources */,
 			);
